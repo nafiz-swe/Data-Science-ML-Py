@@ -1,0 +1,16 @@
+# Write a program to sort by ascending order from the following list.
+# (Create a function to solve it)
+# List = [1, 5, 2, 9, 3, 22, 13]
+
+# Define a function to sort the list
+def sort_list_ascending(input_list):
+    # Use the built-in sort() method to sort the list in ascending order
+    input_list.sort()
+    return input_list
+
+# Given list
+my_list = [1, 5, 2, 9, 3, 22, 13]
+
+# Call the function and print the sorted list
+sorted_list = sort_list_ascending(my_list)
+print("Sorted list in ascending order:", sorted_list)
